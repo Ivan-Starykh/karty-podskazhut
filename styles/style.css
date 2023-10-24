@@ -15,6 +15,9 @@
 .page {
   min-inline-size: 360px;
   margin: 0;
+	background-color: var(--bg-color, #F3EFEC);
+	color: var(--text-color, #312A4E);
+	font-family: var(--main-font, Raleway, sans-serif);
 }
 
 p,
@@ -27,4 +30,77 @@ ol,
 li,
 figure {
   margin: 0;
+}
+
+.header{
+	padding-top: 10%;
+}
+
+.heading {
+text-align: center;
+font-family: var(--accent-font, 'STIX Two Text');
+font-style: normal;
+font-weight: 600;
+line-height: 90%;
+}
+
+.content-section{
+	padding: 0 5vi;
+}
+
+.header__title{
+	font-size: clamp(2rem, 0.1667rem + 8.1481vw, 7.5rem);
+	padding-bottom: 40px;
+}
+
+.content__title {
+	font-size: 30px;
+	padding: 7% 0 2.5%;
+}
+
+.content__text-block{
+	font-size: 18px;
+}
+
+.content__text-block .content__paragraph:not(:last-of-type){
+	padding-bottom: 1.5em;
+}
+
+.content__paragraph a{
+	color: inherit;
+}
+
+.content__blockquote {
+font-style: italic;
+font-weight: 400;
+line-height: 200%; 
+width: 75%;
+padding-bottom: 1.5em;
+margin: 0 auto;
+}
+
+.content__list{
+	position: relative;
+}
+
+.content__list li{
+list-style: none;
+padding-inline-start: 40px;
+}
+
+.content__list li::before{
+content: "";
+width: 15px;
+height: 15px;
+background-image: url(/images/marker-light.svg);
+position: absolute;
+background-size: cover;
+    background-position: center;
+		background-repeat: no-repeat;
+		left: 50px;
+		/* top: 2px; */
+}
+
+.content__list li:not(:last-child){
+	padding-bottom: 10px;
 }
