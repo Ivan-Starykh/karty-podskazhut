@@ -1,5 +1,5 @@
-# Проектная работа «Посмотри в окно»
+# Проектная работа «Карты подскажут»
 
-[ссылка на репозиторий](https://github.com/Ivan-Starykh/posmotri_v_okno.git)
+[ссылка на репозиторий](https://github.com/Ivan-Starykh/karty-podskazhut.git)
 
 Free license
